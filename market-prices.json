@@ -1,0 +1,2448 @@
+[
+    null,
+    {
+        "name": "Power",
+        "magnates": [
+            0.259,
+            0.25,
+            0.263,
+            0.264,
+            0.262,
+            0.268,
+            0.254
+        ],
+        "entrepreneurs": [
+            0.238,
+            0.232,
+            0.232,
+            0.237,
+            0.235,
+            0.237,
+            0.235
+        ]
+    },
+    {
+        "name": "Water",
+        "magnates": [
+            0.339,
+            0.335,
+            0.337,
+            0.335,
+            0.338,
+            0.337,
+            0.329
+        ],
+        "entrepreneurs": [
+            0.3,
+            0.297,
+            0.298,
+            0.302,
+            0.3,
+            0.301,
+            0.3
+        ]
+    },
+    {
+        "name": "Apples",
+        "magnates": [
+            1.93,
+            1.93,
+            1.93,
+            1.93,
+            1.9,
+            1.92,
+            1.92
+        ],
+        "entrepreneurs": [
+            1.8,
+            1.81,
+            1.81,
+            1.81,
+            1.81,
+            1.81,
+            1.75
+        ]
+    },
+    {
+        "name": "Oranges",
+        "magnates": [
+            1.84,
+            1.91,
+            1.9,
+            1.91,
+            1.9,
+            1.92,
+            1.92
+        ],
+        "entrepreneurs": [
+            1.8,
+            1.6,
+            1.6,
+            1.8,
+            1.6,
+            1.82,
+            1.81
+        ]
+    },
+    {
+        "name": "Grapes",
+        "magnates": [
+            2.1,
+            2.35,
+            2.35,
+            2.4,
+            2.4,
+            2.3,
+            2.4
+        ],
+        "entrepreneurs": [
+            2.3,
+            2.25,
+            2.25,
+            2.25,
+            2.25,
+            2.2,
+            2.3
+        ]
+    },
+    {
+        "name": "Grain",
+        "magnates": [
+            0.58,
+            0.58,
+            0.58,
+            0.57,
+            0.585,
+            0.5,
+            0.58
+        ],
+        "entrepreneurs": [
+            0.52,
+            0.52,
+            0.52,
+            0.525,
+            0.5,
+            0.55,
+            0.555
+        ]
+    },
+    {
+        "name": "Steak",
+        "magnates": [
+            34,
+            34,
+            34,
+            34.75,
+            34.75,
+            35,
+            35
+        ],
+        "entrepreneurs": [
+            32.25,
+            32.25,
+            32.25,
+            32,
+            32,
+            32,
+            31.75
+        ]
+    },
+    {
+        "name": "Sausages",
+        "magnates": [
+            9.9,
+            10,
+            10,
+            10,
+            9.9,
+            10,
+            9.9
+        ],
+        "entrepreneurs": [
+            9,
+            8.9,
+            8.9,
+            8.9,
+            8.9,
+            8.9,
+            8.9
+        ]
+    },
+    {
+        "name": "Eggs",
+        "magnates": [
+            1.1,
+            1.09,
+            1,
+            1.1,
+            1.13,
+            1.11,
+            1.12
+        ],
+        "entrepreneurs": [
+            1,
+            1.05,
+            1.05,
+            1.03,
+            1.02,
+            1.01,
+            1.02
+        ]
+    },
+    {
+        "name": "Crude oil",
+        "magnates": [
+            30.5,
+            31,
+            31,
+            31,
+            31,
+            31,
+            31
+        ],
+        "entrepreneurs": [
+            26.25,
+            26.5,
+            26.5,
+            26.25,
+            26.25,
+            26,
+            25.75
+        ]
+    },
+    {
+        "name": "Petrol",
+        "magnates": [
+            39.25,
+            39.25,
+            39.25,
+            39,
+            39,
+            39.25,
+            39.25
+        ],
+        "entrepreneurs": [
+            37,
+            37,
+            37,
+            37,
+            37,
+            36.75,
+            36.5
+        ]
+    },
+    {
+        "name": "Diesel",
+        "magnates": [
+            39.5,
+            39,
+            39,
+            39,
+            39,
+            39.5
+        ],
+        "entrepreneurs": [
+            36.5,
+            36.25,
+            36.25,
+            36.75,
+            37,
+            36.75
+        ]
+    },
+    {
+        "name": "Transport",
+        "magnates": [
+            0.365,
+            0.361,
+            0.361,
+            0.358,
+            0.35,
+            0.358
+        ],
+        "entrepreneurs": [
+            0.339,
+            0.341,
+            0.342,
+            0.335,
+            0.343,
+            0.339
+        ]
+    },
+    {
+        "name": "Minerals",
+        "magnates": [
+            11.3,
+            11,
+            11,
+            11.1,
+            11.1,
+            11.2
+        ],
+        "entrepreneurs": [
+            9.7,
+            10.2,
+            10.2,
+            10,
+            10.2,
+            10.4
+        ]
+    },
+    {
+        "name": "Bauxite",
+        "magnates": [
+            10,
+            10.1,
+            10.1,
+            10,
+            9.9,
+            10
+        ],
+        "entrepreneurs": [
+            7.5,
+            7.5,
+            7.5,
+            7.5,
+            7.5,
+            7.4
+        ]
+    },
+    {
+        "name": "Silicon",
+        "magnates": [
+            8.1,
+            8,
+            8,
+            8.1,
+            8.1,
+            8.2
+        ],
+        "entrepreneurs": [
+            6.9,
+            6.9,
+            6.9,
+            7,
+            7.3,
+            7.3
+        ]
+    },
+    {
+        "name": "Chemicals",
+        "magnates": [
+            14.7,
+            14.7,
+            14.6,
+            14.6,
+            14.6,
+            14.5
+        ],
+        "entrepreneurs": [
+            13,
+            13,
+            13,
+            13.1,
+            13.2,
+            13.9
+        ]
+    },
+    {
+        "name": "Aluminium",
+        "magnates": [
+            19.9,
+            20,
+            20,
+            19.5,
+            20,
+            19.8
+        ],
+        "entrepreneurs": [
+            17,
+            16.8,
+            17,
+            17,
+            17,
+            17
+        ]
+    },
+    {
+        "name": "Plastic",
+        "magnates": [
+            11.4,
+            11.4,
+            11.4,
+            11.4,
+            11.3,
+            11.6
+        ],
+        "entrepreneurs": [
+            9.7,
+            9.4,
+            9.4,
+            9.6,
+            9.6,
+            9.8
+        ]
+    },
+    {
+        "name": "Processors",
+        "magnates": [
+            121,
+            121,
+            121,
+            120,
+            120,
+            119
+        ],
+        "entrepreneurs": [
+            100,
+            100,
+            100,
+            100,
+            102,
+            101
+        ]
+    },
+    {
+        "name": "Electronic components",
+        "magnates": [
+            56.5,
+            55,
+            55,
+            55.5,
+            57.5,
+            58
+        ],
+        "entrepreneurs": [
+            52,
+            52,
+            52,
+            51.5,
+            50.5,
+            53.5
+        ]
+    },
+    {
+        "name": "Batteries",
+        "magnates": [
+            87,
+            89,
+            90,
+            89.5,
+            89,
+            89.5
+        ],
+        "entrepreneurs": [
+            80,
+            83,
+            83,
+            83,
+            83,
+            88
+        ]
+    },
+    {
+        "name": "Displays",
+        "magnates": [
+            122,
+            121,
+            121,
+            124,
+            124,
+            125
+        ],
+        "entrepreneurs": [
+            105,
+            105,
+            105,
+            105,
+            105,
+            101
+        ]
+    },
+    {
+        "name": "Smart phones",
+        "magnates": [
+            600,
+            600,
+            600,
+            600,
+            595,
+            595
+        ],
+        "entrepreneurs": [
+            535,
+            530,
+            530,
+            530,
+            545,
+            545
+        ]
+    },
+    {
+        "name": "Tablets",
+        "magnates": [
+            730,
+            730,
+            730,
+            730,
+            730,
+            730
+        ],
+        "entrepreneurs": [
+            650,
+            640,
+            640,
+            635,
+            500,
+            630
+        ]
+    },
+    {
+        "name": "Laptops",
+        "magnates": [
+            1120,
+            1120,
+            1120,
+            1140,
+            1120,
+            1110
+        ],
+        "entrepreneurs": [
+            1010,
+            1010,
+            1010,
+            1010,
+            1010,
+            1010
+        ]
+    },
+    {
+        "name": "Monitors",
+        "magnates": [
+            545,
+            540,
+            540,
+            540,
+            540,
+            550
+        ],
+        "entrepreneurs": [
+            494,
+            494,
+            494,
+            494,
+            494,
+            494
+        ]
+    },
+    {
+        "name": "Televisions",
+        "magnates": [
+            910,
+            905,
+            905,
+            900,
+            890,
+            900
+        ],
+        "entrepreneurs": [
+            835,
+            830,
+            830,
+            830,
+            830,
+            825
+        ]
+    },
+    {
+        "name": "Plant research",
+        "magnates": [
+            161,
+            160,
+            159,
+            160
+        ],
+        "entrepreneurs": [
+            131,
+            131,
+            131,
+            132
+        ]
+    },
+    {
+        "name": "Energy research",
+        "magnates": [
+            300,
+            300,
+            294,
+            292
+        ],
+        "entrepreneurs": [
+            270,
+            270,
+            270,
+            270
+        ]
+    },
+    {
+        "name": "Mining research",
+        "magnates": [
+            314,
+            314,
+            316,
+            312
+        ],
+        "entrepreneurs": [
+            300,
+            300,
+            300,
+            300
+        ]
+    },
+    {
+        "name": "Electronics research",
+        "magnates": [
+            388,
+            388,
+            382,
+            374
+        ],
+        "entrepreneurs": [
+            350,
+            348,
+            346,
+            350
+        ]
+    },
+    {
+        "name": "Breeding research",
+        "magnates": [
+            188,
+            188,
+            193,
+            192
+        ],
+        "entrepreneurs": [
+            144,
+            144,
+            146,
+            145
+        ]
+    },
+    {
+        "name": "Chemistry research",
+        "magnates": [
+            166,
+            166,
+            168,
+            163
+        ],
+        "entrepreneurs": [
+            152,
+            152,
+            153,
+            152
+        ]
+    },
+    {
+        "name": "Software",
+        "magnates": [
+            162,
+            162,
+            162,
+            159
+        ],
+        "entrepreneurs": [
+            130,
+            130,
+            130,
+            130
+        ]
+    },
+    null,
+    null,
+    null,
+    null,
+    {
+        "name": "Cotton",
+        "magnates": [
+            1.18,
+            1.19,
+            1.19,
+            1.19,
+            1.19,
+            1.22
+        ],
+        "entrepreneurs": [
+            1.05,
+            1,
+            1,
+            1,
+            1,
+            1
+        ]
+    },
+    {
+        "name": "Fabric",
+        "magnates": [
+            4.05,
+            4,
+            4,
+            4,
+            4,
+            4.3
+        ],
+        "entrepreneurs": [
+            3.15,
+            3.1,
+            3.1,
+            3.1,
+            3.1,
+            3.1
+        ]
+    },
+    {
+        "name": "Iron ore",
+        "magnates": [
+            4.75,
+            4.7,
+            4.65,
+            4.8,
+            4.8,
+            4.6
+        ],
+        "entrepreneurs": [
+            5,
+            5.1,
+            5.1,
+            5,
+            5.2,
+            5.1
+        ]
+    },
+    {
+        "name": "Steel",
+        "magnates": [
+            11.5,
+            11.6,
+            11.6,
+            11.7,
+            11.7,
+            11.6
+        ],
+        "entrepreneurs": [
+            11.8,
+            13,
+            13,
+            13,
+            12.9,
+            13.9
+        ]
+    },
+    {
+        "name": "Sand",
+        "magnates": [
+            1.16,
+            1.17,
+            1.18,
+            1.18,
+            1.18,
+            1.14
+        ],
+        "entrepreneurs": [
+            1.02,
+            1,
+            0.9,
+            1.03,
+            1.03,
+            1.03
+        ]
+    },
+    {
+        "name": "Glass",
+        "magnates": [
+            14,
+            13,
+            13,
+            14,
+            14,
+            14
+        ],
+        "entrepreneurs": [
+            12.7,
+            12.3,
+            12.3,
+            12.4,
+            12.4,
+            12.2
+        ]
+    },
+    {
+        "name": "Leather",
+        "magnates": [
+            21.75,
+            21,
+            21.25,
+            21,
+            21,
+            21
+        ],
+        "entrepreneurs": [
+            19.4,
+            16,
+            16,
+            19.4,
+            19.5,
+            19.6
+        ]
+    },
+    {
+        "name": "On-board computer",
+        "magnates": [
+            476,
+            470,
+            470,
+            470,
+            478,
+            474
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Electric motor",
+        "magnates": [
+            218,
+            224,
+            224,
+            228,
+            226,
+            230
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Luxury car interior",
+        "magnates": [
+            935,
+            935,
+            935,
+            935,
+            935,
+            935
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Basic interior",
+        "magnates": [
+            314,
+            314,
+            314,
+            314,
+            314,
+            312
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Car body",
+        "magnates": [
+            760,
+            760,
+            760,
+            760,
+            760,
+            760
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Combustion engine",
+        "magnates": [
+            595,
+            600,
+            600,
+            600,
+            600,
+            610
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Economy e-car",
+        "magnates": [
+            3750,
+            3700,
+            3700,
+            3650,
+            3600,
+            3400
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Luxury e-car",
+        "magnates": [
+            6225,
+            6200,
+            6200,
+            6225,
+            6225,
+            6275
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Economy car",
+        "magnates": [
+            2240,
+            2230,
+            2230,
+            2230,
+            2230,
+            2150
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Luxury car",
+        "magnates": [
+            4250,
+            4240,
+            4240,
+            4240,
+            4240,
+            4130
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Truck",
+        "magnates": [
+            5500,
+            5500,
+            5500,
+            5475,
+            5450,
+            5550
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Automotive research",
+        "magnates": [
+            244,
+            242,
+            242,
+            238
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Fashion research",
+        "magnates": [
+            123,
+            123,
+            125,
+            121
+        ],
+        "entrepreneurs": [
+            98.5,
+            98.5,
+            99,
+            100
+        ]
+    },
+    {
+        "name": "Underwear",
+        "magnates": [
+            4.7,
+            4.7,
+            4.8,
+            5,
+            5,
+            5
+        ],
+        "entrepreneurs": [
+            4,
+            3.95,
+            3.95,
+            4,
+            4,
+            4.15
+        ]
+    },
+    {
+        "name": "Gloves",
+        "magnates": [
+            15.2,
+            15.1,
+            15.1,
+            15.2,
+            15.1,
+            15.2
+        ],
+        "entrepreneurs": [
+            13.6,
+            13.6,
+            13.6,
+            13.6,
+            13.5,
+            13.7
+        ]
+    },
+    {
+        "name": "Dress",
+        "magnates": [
+            19,
+            19,
+            19,
+            19,
+            19,
+            19.1
+        ],
+        "entrepreneurs": [
+            16,
+            16,
+            16,
+            16,
+            16,
+            16.7
+        ]
+    },
+    {
+        "name": "Stiletto Heel",
+        "magnates": [
+            28,
+            28.5,
+            28.5,
+            28,
+            28,
+            27.5
+        ],
+        "entrepreneurs": [
+            25.5,
+            25,
+            25,
+            25,
+            24.75,
+            24.5
+        ]
+    },
+    {
+        "name": "Handbags",
+        "magnates": [
+            36.75,
+            36.75,
+            36.75,
+            36.5,
+            36.5,
+            36
+        ],
+        "entrepreneurs": [
+            31.75,
+            31.75,
+            30.75,
+            30.75,
+            31.75,
+            32.75
+        ]
+    },
+    {
+        "name": "Sneakers",
+        "magnates": [
+            13.4,
+            13.2,
+            13.2,
+            13.2,
+            13.2,
+            13.1
+        ],
+        "entrepreneurs": [
+            12.1,
+            12.1,
+            12.1,
+            12.1,
+            12.1,
+            12.1
+        ]
+    },
+    {
+        "name": "Seeds",
+        "magnates": [
+            0.225,
+            0.22,
+            0.22,
+            0.22,
+            0.219,
+            0.222,
+            0.226
+        ],
+        "entrepreneurs": [
+            0.2,
+            0.207,
+            0.206,
+            0.204,
+            0.204,
+            0.208,
+            0.209
+        ]
+    },
+    null,
+    {
+        "name": "Gold ore",
+        "magnates": [
+            32.75,
+            32.5,
+            32.5,
+            33.5,
+            33,
+            32
+        ],
+        "entrepreneurs": [
+            38,
+            39.75,
+            39.5,
+            37,
+            51,
+            43
+        ]
+    },
+    {
+        "name": "Golden bars",
+        "magnates": [
+            6425,
+            6475,
+            6475,
+            6450,
+            6450,
+            6500
+        ],
+        "entrepreneurs": [
+            7900,
+            9350,
+            9350,
+            9200,
+            9000,
+            8900
+        ]
+    },
+    {
+        "name": "Luxury watch",
+        "magnates": [
+            740,
+            740,
+            740,
+            730,
+            740,
+            740
+        ],
+        "entrepreneurs": [
+            1360,
+            1290,
+            1290,
+            1350,
+            1380,
+            1380
+        ]
+    },
+    {
+        "name": "Necklace",
+        "magnates": [
+            1480,
+            1480,
+            1480,
+            1480,
+            1480,
+            1480
+        ],
+        "entrepreneurs": [
+            2390,
+            2250,
+            2250,
+            1800,
+            2390,
+            2450
+        ]
+    },
+    {
+        "name": "Sugarcane",
+        "magnates": [
+            1.4,
+            1.4,
+            1.4,
+            1.29,
+            1.45,
+            1.45,
+            1.44
+        ],
+        "entrepreneurs": [
+            1.47,
+            1.48,
+            1.48,
+            1.48,
+            1.48,
+            1.47,
+            1.48
+        ]
+    },
+    {
+        "name": "Ethanol",
+        "magnates": [
+            24.25,
+            25,
+            25,
+            24.25,
+            25,
+            24,
+            24.5
+        ],
+        "entrepreneurs": [
+            25.75,
+            26.25,
+            26.25,
+            26,
+            25.75,
+            25.75,
+            25.75
+        ]
+    },
+    {
+        "name": "Methane",
+        "magnates": [
+            22.25,
+            21.75,
+            21.75,
+            21.5,
+            21.5,
+            21.75,
+            22
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Carbon fibers",
+        "magnates": [
+            6.9,
+            6.9,
+            6.9,
+            6.9,
+            6.8,
+            6.9
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Carbon composite",
+        "magnates": [
+            67,
+            69,
+            69,
+            68,
+            67.5,
+            68
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Fuselage",
+        "magnates": [
+            2930,
+            2920,
+            2920,
+            2920,
+            2920,
+            2990
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Wing",
+        "magnates": [
+            2130,
+            2120,
+            2120,
+            2120,
+            2120,
+            2140
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "High grade e-comps",
+        "magnates": [
+            960,
+            940,
+            940,
+            930,
+            945,
+            930
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Flight computer",
+        "magnates": [
+            4940,
+            4920,
+            4920,
+            4920,
+            4920,
+            4890
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Cockpit",
+        "magnates": [
+            5550,
+            5550,
+            5550,
+            5550,
+            5550,
+            5550
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Attitude control",
+        "magnates": [
+            1590,
+            1570,
+            1570,
+            1580,
+            1580,
+            1540
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Rocket fuel",
+        "magnates": [
+            33.5,
+            33.5,
+            33.5,
+            33.5,
+            33.75,
+            33.75
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Propellant tank",
+        "magnates": [
+            9600,
+            9625,
+            9625,
+            9625,
+            9625,
+            9600
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Solid fuel booster",
+        "magnates": [
+            7950,
+            7950,
+            7950,
+            7950,
+            7950,
+            7875
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Rocket engine",
+        "magnates": [
+            11500,
+            11200,
+            11200,
+            11200,
+            11500,
+            11700
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Heat shield",
+        "magnates": [
+            428,
+            432,
+            432,
+            432,
+            432,
+            432
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Ion drive",
+        "magnates": [
+            12300,
+            12200,
+            12200,
+            12200,
+            12200,
+            12000
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Jet engine",
+        "magnates": [
+            5300,
+            5300,
+            5300,
+            5200,
+            5200,
+            5200
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Sub-orbital 2nd stage",
+        "magnates": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Sub-orbital rocket",
+        "magnates": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Orbital booster",
+        "magnates": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Starship",
+        "magnates": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "BFR",
+        "magnates": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Jumbo jet",
+        "magnates": [
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Luxury jet",
+        "magnates": [
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Single engine plane",
+        "magnates": [
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Quadcopter",
+        "magnates": [
+            850,
+            875,
+            875,
+            875,
+            875
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Satellite",
+        "magnates": [
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Aerospace research",
+        "magnates": [
+            330,
+            330,
+            330,
+            330
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Reinforced concrete",
+        "magnates": [
+            190,
+            193,
+            193,
+            193,
+            192
+        ],
+        "entrepreneurs": [
+            160,
+            160,
+            160,
+            159,
+            160
+        ]
+    },
+    {
+        "name": "Bricks",
+        "magnates": [
+            2.45,
+            2.45,
+            2.45,
+            2.4,
+            2.4
+        ],
+        "entrepreneurs": [
+            2,
+            2,
+            2,
+            1.99,
+            1.95
+        ]
+    },
+    {
+        "name": "Cement",
+        "magnates": [
+            6.1,
+            6.4,
+            6.4,
+            6.4,
+            6.4
+        ],
+        "entrepreneurs": [
+            5.3,
+            5.1,
+            5.1,
+            5.1,
+            5.2
+        ]
+    },
+    {
+        "name": "Clay",
+        "magnates": [
+            0.725,
+            0.73,
+            0.73,
+            0.73,
+            0.73
+        ],
+        "entrepreneurs": [
+            0.655,
+            0.655,
+            0.655,
+            0.655,
+            0.655
+        ]
+    },
+    {
+        "name": "Limestone",
+        "magnates": [
+            1.49,
+            1.42,
+            1.42,
+            1.4,
+            1.5
+        ],
+        "entrepreneurs": [
+            1,
+            0.99,
+            0.99,
+            1,
+            1
+        ]
+    },
+    {
+        "name": "Wood",
+        "magnates": [
+            3.45,
+            3.6,
+            3.6,
+            3.45,
+            3.4
+        ],
+        "entrepreneurs": [
+            3.45,
+            3.4,
+            3.4,
+            3.35,
+            3.3
+        ]
+    },
+    {
+        "name": "Steel beams",
+        "magnates": [
+            21,
+            21.25,
+            21.25,
+            21,
+            21
+        ],
+        "entrepreneurs": [
+            25.75,
+            26.5,
+            26.5,
+            26.5,
+            26.25
+        ]
+    },
+    {
+        "name": "Planks",
+        "magnates": [
+            9.2,
+            9.3,
+            9.3,
+            9.2,
+            9.3
+        ],
+        "entrepreneurs": [
+            8.6,
+            8.7,
+            8.7,
+            8.7,
+            8
+        ]
+    },
+    {
+        "name": "Windows",
+        "magnates": [
+            105,
+            105,
+            104,
+            104
+        ],
+        "entrepreneurs": [
+            138,
+            138,
+            139,
+            143
+        ]
+    },
+    {
+        "name": "Tools",
+        "magnates": [
+            193,
+            193,
+            193,
+            192
+        ],
+        "entrepreneurs": [
+            189,
+            189,
+            190,
+            192
+        ]
+    },
+    {
+        "name": "Construction units",
+        "magnates": [
+            2570,
+            2570,
+            2570,
+            2570
+        ],
+        "entrepreneurs": [
+            3890,
+            3900,
+            3900,
+            3790
+        ]
+    },
+    {
+        "name": "Bulldozer",
+        "magnates": [
+            2210,
+            2210,
+            2210,
+            2210,
+            2210,
+            2220
+        ],
+        "entrepreneurs": [
+            3000,
+            3000,
+            3000,
+            3000,
+            3000,
+            3000
+        ]
+    },
+    {
+        "name": "Materials research",
+        "magnates": [
+            232,
+            232,
+            232,
+            232
+        ],
+        "entrepreneurs": [
+            200,
+            200,
+            198,
+            198
+        ]
+    },
+    {
+        "name": "Robots",
+        "magnates": [
+            300,
+            298,
+            298,
+            300,
+            300,
+            308
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Cows",
+        "magnates": [
+            109,
+            109,
+            109,
+            109
+        ],
+        "entrepreneurs": [
+            100,
+            100,
+            101,
+            101
+        ]
+    },
+    {
+        "name": "Pigs",
+        "magnates": [
+            37.25,
+            37,
+            37,
+            37.5
+        ],
+        "entrepreneurs": [
+            35.25,
+            35.25,
+            35.25,
+            36
+        ]
+    },
+    {
+        "name": "Milk",
+        "magnates": [
+            6.6,
+            6.6,
+            6.4,
+            6
+        ],
+        "entrepreneurs": [
+            6.5,
+            6.5,
+            6.4,
+            6.4
+        ]
+    },
+    {
+        "name": "Coffee beans",
+        "magnates": [
+            0.79,
+            0.79,
+            0.79,
+            0.79
+        ],
+        "entrepreneurs": [
+            0.68,
+            0.68,
+            0.68,
+            0.68
+        ]
+    },
+    {
+        "name": "Coffee powder",
+        "magnates": [
+            30,
+            30.25,
+            31.75,
+            30
+        ],
+        "entrepreneurs": [
+            27.5,
+            27.5,
+            27.25,
+            27.25
+        ]
+    },
+    {
+        "name": "Vegetables",
+        "magnates": [
+            2.45,
+            2.45,
+            2.45,
+            2.2
+        ],
+        "entrepreneurs": [
+            2.15,
+            2.15,
+            2.15,
+            2.2
+        ]
+    },
+    {
+        "name": "Bread",
+        "magnates": [
+            175,
+            175,
+            170
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Cheese",
+        "magnates": [
+            134,
+            134,
+            134
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Apple pie",
+        "magnates": [
+            278,
+            278,
+            278
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Orange juice",
+        "magnates": [
+            31.5,
+            31.5,
+            31.5
+        ],
+        "entrepreneurs": [
+            27.75,
+            27.75,
+            27.75
+        ]
+    },
+    {
+        "name": "Apple cider",
+        "magnates": [
+            25,
+            25,
+            25
+        ],
+        "entrepreneurs": [
+            19,
+            19,
+            19
+        ]
+    },
+    {
+        "name": "Ginger beer",
+        "magnates": [
+            48,
+            48,
+            48
+        ],
+        "entrepreneurs": [
+            42.25,
+            42.25,
+            42.25
+        ]
+    },
+    {
+        "name": "Frozen pizza",
+        "magnates": [
+            458,
+            458,
+            448
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Pasta",
+        "magnates": [
+            43,
+            43,
+            43
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Hamburger",
+        "magnates": [
+            2330,
+            2330,
+            2330
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Lasagna",
+        "magnates": [
+            2370,
+            2370,
+            2360
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Meat balls",
+        "magnates": [
+            2910,
+            2910,
+            2910
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Cocktails",
+        "magnates": [
+            2760,
+            2760,
+            2760
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Flour",
+        "magnates": [
+            13.9,
+            13.9,
+            13.9,
+            14.1
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Butter",
+        "magnates": [
+            55.5,
+            55.5,
+            50
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Sugar",
+        "magnates": [
+            17.9,
+            17.9,
+            17.9
+        ],
+        "entrepreneurs": [
+            15,
+            15,
+            14.9
+        ]
+    },
+    {
+        "name": "Cocoa",
+        "magnates": [
+            1.5,
+            1.4,
+            1.4,
+            1.4
+        ],
+        "entrepreneurs": [
+            1.46,
+            1.46,
+            1.46,
+            1.46
+        ]
+    },
+    {
+        "name": "Dough",
+        "magnates": [
+            116,
+            116,
+            116
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Sauce",
+        "magnates": [
+            1400,
+            1400,
+            1400
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Fodder",
+        "magnates": [
+            8.5,
+            8.5,
+            8.7
+        ],
+        "entrepreneurs": [
+            7.4,
+            7.4,
+            7.4
+        ]
+    },
+    {
+        "name": "Chocolate",
+        "magnates": [
+            260,
+            260,
+            254
+        ],
+        "entrepreneurs": [
+            230,
+            230,
+            228
+        ]
+    },
+    {
+        "name": "Vegetable oil",
+        "magnates": [
+            33.5,
+            33.5,
+            33.5
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Salad",
+        "magnates": [
+            770,
+            770,
+            770
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Samosa",
+        "magnates": [
+            720,
+            720,
+            700
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Xmas ornament",
+        "magnates": [
+            12.8,
+            12.8,
+            12.8
+        ],
+        "entrepreneurs": [
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Recipes",
+        "magnates": [
+            226,
+            226,
+            236,
+            230
+        ],
+        "entrepreneurs": [
+            181,
+            181,
+            181,
+            181
+        ]
+    }
+]
