@@ -1,10 +1,11 @@
-const { Client, GatewayIntentBits, EmbedBuilder, ActionRowBuilder, StringSelectMenuBuilder  } = require('discord.js');
+const { Client, GatewayIntentBits, EmbedBuilder, ActionRowBuilder, StringSelectMenuBuilder, AttachmentBuilder, Attachment  } = require('discord.js');
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 require('dotenv').config();
 const categories = require('./categories.json');
 const resources = require('./resources.json');
 const marketPrices = require('./market-prices.json');
 const fs = require('fs');
+const { ChartJSNodeCanvas } = require('chartjs-node-canvas');
 
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
@@ -92,8 +93,8 @@ client.on('interactionCreate', async interaction => {
         }
 
         if(interaction.commandName === 'forcemarketupdate') {
-            await marketUpdate();
-            await interaction.reply('Market prices updated');
+            marketUpdate();
+            await interaction.reply('Market prices updating');
         }
 
         if (interaction.commandName === 'market') {
@@ -150,7 +151,7 @@ client.on('interactionCreate', async interaction => {
                 }
 
                 let fields = [];
-                for (let i = 0; i < Math.min(data.length, 12); i++) {
+                for (let i = 0; i < Math.min(data.length, 6); i++) {
                     let value = `Price : ${dollar(data[i].price, 3)}\n`;
                     value += `Quality : ${data[i].quality}\n`;
                     value += `Quantity : ${data[i].quantity}`
@@ -160,13 +161,21 @@ client.on('interactionCreate', async interaction => {
                 let description = 'Information unavailable.';
                 if (realm === 0) {
                     if (priceAverage(marketPrices[db_letter].magnates) > data[0].price) {
-                        description = 'You should buy :shopping_cart: (price below average).';
+                        if(priceMin(marketPrices[db_letter].magnates) >= data[0].price){
+                            description = 'You should REALLY buy :shopping_cart: :shopping_cart: (price at minimum).';
+                        } else {
+                            description = 'You should buy :shopping_cart: (price below average).';
+                        }
                     } else {
                         description = 'You should sell :moneybag: (price above average).';
                     }
                 } else {
                     if (priceAverage(marketPrices[db_letter].entrepreneurs) > data[0].price) {
-                        description = 'You should buy :shopping_cart: (price below average).';
+                        if(priceMin(marketPrices[db_letter].entrepreneurs) >= data[0].price){
+                            description = 'You should REALLY buy :shopping_cart: :shopping_cart: (price at minimum).';
+                        } else {
+                            description = 'You should buy :shopping_cart: (price below average).';
+                        }
                     } else {
                         description = 'You should sell :moneybag: (price above average).';
                     }
@@ -207,9 +216,59 @@ client.on('interactionCreate', async interaction => {
                     });
                 }
 
+                const width = 512;
+                const height = 256;
+                const backgroundColor = 'white';
+                const chartJSNodeCanvas = new ChartJSNodeCanvas({width, height, backgroundColor});
+                const configuration = {
+                    type: 'line',
+                    data: {
+                        labels: resource.name,
+                        datasets: [{
+                            labels: 'Price',
+                            data: realm === 0 ? marketPrices[db_letter].magnates : marketPrices[db_letter].entrepreneurs,
+                            backgroundColor: 'white',
+                            borderColor: 'white',
+                            borderWidth: 2
+                        }]
+                    },
+                    options: {
+                        scales: {
+                            y: {
+                                beginAtZero: true,
+                                ticks: {
+                                    callback: function(value, index, ticks) {
+                                        return '$' + value;
+                                    },
+                                    color: 'white'
+                                },
+                                grid: {
+                                    display: false
+                                }
+                            },
+                            x: {
+                                ticks: {
+                                    display: false
+                                },
+                                grid: {
+                                    display: false
+                                }
+                            }
+                        },
+                        plugins: {
+                            legend: {
+                                display: false
+                            }
+                        }
+                    }
+                };
+
+                const image = await chartJSNodeCanvas.renderToBuffer(configuration);
+                const file = new AttachmentBuilder(image, {name: 'img.png'});
+
                 const embed = new EmbedBuilder()
                     .setColor(0x01273D)
-                    .setTitle(`${resource.name} Market`)
+                    .setTitle(`${resource.name} Market (${realm === 0 ? 'Magnates' : 'Entrepreneurs'})`)
                     .setDescription(description)
                     .addFields({name: '\u200B', value: '\u200B'})
                     .setURL(`https://www.simcompanies.com/market/resource/${db_letter}`)
@@ -217,12 +276,13 @@ client.on('interactionCreate', async interaction => {
                     .addFields(pricesFields)
                     .addFields({name: '\u200B', value: '\u200B'})
                     .addFields(fields)
+                    .setImage('attachment://img.png')
                     .setTimestamp()
                     .setFooter({
                         text: 'SimCoBot',
                         iconURL: 'https://cdn.discordapp.com/app-icons/1077196058762956810/461ae54a37e3c3e4a658f58d1760bef5.png?size=256'
                     });
-                await interaction.editReply({embeds: [embed]});
+                await interaction.editReply({embeds: [embed], files: [file]});
             } catch (e) {
                 console.log(e);
                 await interaction.editReply({content: 'An error occurred.'});
